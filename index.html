@@ -11,6 +11,21 @@
     <div class="wrapper">
       <header>
         <h1>Password Generator</h1>
+        <h2> Choose password criteria:</h2>
+        <label for="choose-length">Choose password length, between 8 and 128 characters:</label>
+        <input type="number" name="length" class="choose-length" min="8" max="128"/>
+
+        <label for="uppercase">Uppercase letters:</label>
+        <input type="checkbox" name="uppercase" class="uppercase"/>
+
+        <label for="lowercase">Lowercase letters:</label>
+        <input type="checkbox" name="lowercase" class="lowercase"/>
+
+        <label for="numbers">Numbers:</label>
+        <input type="checkbox" name="number" class="numbers"/>
+
+        <label for="special-characters">Special characters:</label>
+        <input type="checkbox" name="specialchart" class="special-characters"/>
       </header>
       <div class="card">
         <div class="card-header">
