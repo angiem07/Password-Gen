@@ -9,7 +9,7 @@ To open the site click on the following link.\
 https://angiem07.github.io/Password-Gen/
 
 Below is a preview of the site.
-![alt text](site-ss.JPG)
+![alt text](./assets/images/site-ss.JPG)
 
 To generate a password select the wished criteria.
 Then click the "Generate Password" button and the password will display inside the dotted box.
